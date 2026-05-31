@@ -1,0 +1,35 @@
+h1{
+    text-transform: capitalize;
+    text-decoration-line:underline;
+    font-family: jost;
+    font-weight: bold;
+    text-decoration-color: brown;
+    text-shadow: 2px 2px 1px greenyellow;
+}
+p{
+    text-transform: capitalize;
+
+    font-family: jost;
+    font-weight: bold;
+    text-decoration-color:blue;
+    text-shadow: 2px 2px 1px greenyellow;
+}
+p::first-letter{
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+#btn:hover{
+    background-color: magenta;
+color: green;    
+font-weight: bold;
+}
+#btn{
+    color: black;
+    background-color: #ccc;
+}
+body{
+    background-color: #fcccfc;
+}
+   
+    
